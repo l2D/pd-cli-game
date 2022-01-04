@@ -1,0 +1,21 @@
+{
+  "name": "pok-deng-game",
+  "version": "0.0.1",
+  "description": "CLI Pok-Deng game for interview",
+  "main": "index.js",
+  "author": "l2D",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module"
+}
